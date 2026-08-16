@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alexandre — Étudiant ingénieur logiciel</title>
+<meta name="description" content="Portfolio professionnel d'Alexandre, étudiant en génie logiciel à Holberton School.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--
+  TODO avant publication :
+  - Remplacer [TODO: email] par ton email pro
+  - Remplacer [TODO: linkedin] par ton URL LinkedIn
+  - Remplacer [TODO: github] par ton URL GitHub (profil + liens des repos projets)
+  - Choisir si tu affiches une ville dans "Basé à" (about-card)
+  - Ajouter ton vrai CV dans assets/cv.pdf
+  - Relire tous les textes et les personnaliser à ta voix
+-->
+<a class="skip-link" href="#main">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="topbar">
+    <span class="status-pill" aria-label="Statut de disponibilité">
+      <span class="status-dot" aria-hidden="true"></span>
+      Disponible pour une alternance
+    </span>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">
+      <span class="sr-only">Ouvrir le menu</span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+  </div>
+  <nav class="primary-nav" id="primaryNav">
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#resume">CV</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <p class="eyebrow">// portfolio</p>
+    <h1>Alexandre<span class="cursor" aria-hidden="true">_</span></h1>
+    <p class="hero-role">Étudiant ingénieur logiciel — Holberton School</p>
+    <p class="hero-tagline">Je conçois des systèmes backend structurés — de la gestion de stock en temps réel aux serveurs MCP pour l'IA appliquée.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#resume">Voir mon CV</a>
+      <a class="btn btn-ghost" href="#contact">Me contacter</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="about" class="section">
+    <div class="section-head">
+      <p class="eyebrow">· à propos</p>
+      <h2>Qui je suis</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>Je suis étudiant en génie logiciel à Holberton School, actuellement en phase capstone. J'y construis <code>branch-stock-ai</code>, une plateforme de gestion de stock multi-services développée en équipe de trois : je suis responsable du frontend Backoffice (Flask/Jinja2), de l'interface publique client, de l'orchestration Docker Compose et des tests d'intégration end-to-end.</p>
+        <p>Mon parcours à Holberton m'a fait passer par les fondamentaux Python et la programmation orientée objet, le rendu côté serveur avec Flask, les bases de données relationnelles et documentaires, puis les systèmes temps réel avec WebSockets — une progression qui m'amène aujourd'hui à orchestrer plusieurs services en équipe.</p>
+        <p>Je termine mon diplôme et je recherche une alternance pour continuer à travailler sur des systèmes backend structurés. Mon approche : décomposer un besoin en composants clairs, documenter les décisions d'architecture, et itérer avec des outils IA tout en gardant le contrôle sur les choix techniques.</p>
+      </div>
+      <aside class="about-card">
+        <dl>
+          <div class="about-row">
+            <dt>École</dt>
+            <dd>Holberton School</dd>
+          </div>
+          <div class="about-row">
+            <dt>Formation</dt>
+            <dd>Diplôme ingénieur logiciel — phase capstone</dd>
+          </div>
+          <div class="about-row">
+            <dt>Focus</dt>
+            <dd>Backend, orchestration de services, dev assisté par IA</dd>
+          </div>
+          <div class="about-row">
+            <dt>Recherche</dt>
+            <dd>Alternance</dd>
+          </div>
+          <div class="about-row">
+            <dt>Basé à</dt>
+            <dd>Fréjus</dd>
+          </div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="section-head">
+      <p class="eyebrow">· compétences</p>
+      <h2>Ce que je sais faire</h2>
+    </div>
+
+    <h3 class="subhead">Techniques</h3>
+    <ul class="manifest-list">
+      <li><span class="m-name">Python</span><span class="m-cat">Langage</span><span class="m-level">Solide</span></li>
+      <li><span class="m-name">Flask</span><span class="m-cat">Framework</span><span class="m-level">Solide</span></li>
+      <li><span class="m-name">SQLAlchemy</span><span class="m-cat">ORM</span><span class="m-level">Solide</span></li>
+      <li><span class="m-name">Docker / Docker Compose</span><span class="m-cat">Outil</span><span class="m-level">Opérationnel</span></li>
+      <li><span class="m-name">JavaScript</span><span class="m-cat">Langage</span><span class="m-level">Opérationnel</span></li>
+      <li><span class="m-name">HTML / CSS</span><span class="m-cat">Langage</span><span class="m-level">Solide</span></li>
+      <li><span class="m-name">Git</span><span class="m-cat">Outil</span><span class="m-level">Opérationnel</span></li>
+      <li><span class="m-name">MCP / FastMCP</span><span class="m-cat">Protocole</span><span class="m-level">Opérationnel</span></li>
+      <li><span class="m-name">WebSockets (Starlette/Uvicorn)</span><span class="m-cat">Protocole</span><span class="m-level">Solide</span></li>
+    </ul>
+
+    <h3 class="subhead">Langues</h3>
+    <ul class="manifest-list">
+      <li><span class="m-name">Français</span><span class="m-cat">Langue</span><span class="m-level">Langue maternelle</span></li>
+      <li><span class="m-name">Anglais</span><span class="m-cat">Langue</span><span class="m-level">Intermédiaire</span></li>
+    </ul>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="section-head">
+      <p class="eyebrow">· projets</p>
+      <h2>Ce que j'ai construit</h2>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <h3>branch-stock-ai <span class="project-alias">(HBntory)</span></h3>
+        <p>Plateforme de gestion de stock multi-services, conçue en équipe de trois dans le cadre de mon capstone. Architecture SSR pour le Backoffice, API REST pour le client, serveurs MCP personnalisés pour les requêtes IA. Responsable du frontend Backoffice, de l'interface client publique, de l'orchestration Docker Compose et des tests d'intégration end-to-end.</p>
+        <ul class="tag-list">
+          <li>Flask</li><li>Jinja2</li><li>SQLAlchemy</li><li>Docker Compose</li><li>FastMCP</li><li>pytest</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/AlexandreG83">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h3>WebSockets en temps réel</h3>
+        <p>Suite complète de serveurs et clients WebSocket : serveur echo, serveur de validation, diffusion unicast et broadcast, intégration ASGI avec Starlette et Uvicorn, et un client de chat dans le navigateur.</p>
+        <ul class="tag-list">
+          <li>Python</li><li>WebSockets</li><li>Starlette</li><li>Uvicorn</li><li>ASGI</li><li>JavaScript</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/AlexandreG83">GitHub →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="resume" class="section">
+    <div class="section-head">
+      <p class="eyebrow">· cv</p>
+      <h2>Mon CV</h2>
+    </div>
+    <div class="resume-card">
+      <p>Télécharge la version complète et à jour de mon CV, au format PDF.</p>
+      <a class="btn btn-primary" href="assets/cv.pdf" download>Télécharger le CV (PDF)</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="section-head">
+      <p class="eyebrow">· contact</p>
+      <h2>Me contacter</h2>
+    </div>
+    <ul class="contact-list">
+      <li>
+        <span class="contact-label">Email</span>
+        <a href="mailto:alexandre.guillamon83@gmail.com">Alexandre Guillamon</a>
+      </li>
+      <li>
+        <span class="contact-label">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/alexandre-guillamon/">Alexandre Guillamon</a>
+      </li>
+      <li>
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/AlexandreG83">AlexandreG83</a>
+      </li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year"></span> Alexandre — construit à la main avec HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
